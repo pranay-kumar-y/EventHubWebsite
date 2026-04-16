@@ -50,3 +50,4 @@ export default function Home({ events, openAuth }) {
     </div>
   );
 }
+// Home page
