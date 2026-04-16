@@ -1,0 +1,7 @@
+.create-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px; }
+.create-section { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; }
+.create-section-title { font-family: var(--font-display); font-size: 1.05rem; font-weight: 700; margin-bottom: 20px; }
+.tier-form-row { display: grid; grid-template-columns: 1.5fr 1fr 1fr auto; gap: 10px; align-items: end; margin-bottom: 14px; }
+.tier-remove { height: 42px; margin-top: 20px; }
+.create-submit { margin-top: 8px; }
+@media (max-width: 768px) { .create-grid { grid-template-columns: 1fr; } .tier-form-row { grid-template-columns: 1fr 1fr; } }

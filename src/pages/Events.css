@@ -1,0 +1,6 @@
+.events-search { margin-bottom: 16px; }
+.search-input { max-width: 480px; }
+.filter-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 32px; }
+.filter-tab { padding: 7px 18px; border-radius: 100px; border: 1px solid var(--border); background: transparent; color: var(--muted); cursor: pointer; font-size: 0.85rem; font-family: var(--font-body); transition: all 0.2s; }
+.filter-tab.active, .filter-tab:hover { background: var(--accent); color: white; border-color: var(--accent); }
+.events-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 24px; }

@@ -1,0 +1,37 @@
+.checkout-grid { display: grid; grid-template-columns: 1fr 360px; gap: 32px; align-items: start; }
+.payment-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 28px; }
+.payment-card h3 { font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 20px; }
+.fake-card-display { background: linear-gradient(135deg, #1c1c26, #25252f); border: 1px solid var(--border); border-radius: 12px; padding: 20px; margin-bottom: 20px; }
+.fake-card-number { font-family: 'Courier New', monospace; letter-spacing: 0.15em; color: var(--muted); margin-bottom: 12px; font-size: 1rem; }
+.fake-card-row { display: flex; gap: 24px; font-family: monospace; color: var(--muted); font-size: 0.88rem; }
+.stripe-note { font-size: 0.78rem; color: var(--muted); text-align: center; margin: 12px 0; }
+.pay-btn { margin-top: 4px; padding: 14px; font-size: 1rem; }
+
+.order-summary { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 24px; position: sticky; top: 80px; }
+.order-summary h3 { font-family: var(--font-display); font-size: 1.1rem; margin-bottom: 18px; }
+.summary-event { display: flex; gap: 14px; align-items: center; margin-bottom: 16px; }
+.summary-emoji { width: 52px; height: 52px; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; flex-shrink: 0; }
+.summary-title { font-weight: 600; font-size: 0.92rem; margin-bottom: 3px; }
+.summary-date, .summary-venue { font-size: 0.8rem; color: var(--muted); }
+.summary-lines { display: flex; flex-direction: column; gap: 10px; }
+.summary-line { display: flex; justify-content: space-between; font-size: 0.88rem; color: var(--muted); }
+.summary-total { font-size: 0.95rem; color: var(--text); padding-top: 10px; border-top: 1px solid var(--border); }
+.qr-note { margin-top: 16px; padding: 12px; background: rgba(52,211,153,0.08); border: 1px solid rgba(52,211,153,0.2); border-radius: var(--radius-sm); font-size: 0.82rem; color: var(--success); }
+
+.booking-success { max-width: 500px; margin: 0 auto; text-align: center; }
+.success-icon { font-size: 4rem; margin-bottom: 16px; }
+.booking-success h2 { font-family: var(--font-display); font-size: 2rem; font-weight: 800; margin-bottom: 8px; }
+.success-sub { color: var(--muted); margin-bottom: 28px; }
+.qr-card { background: var(--surface); border: 1px solid var(--border); border-radius: 20px; padding: 28px; margin-bottom: 20px; }
+.qr-label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 12px; }
+.qr-display { width: 180px; height: 180px; background: white; border-radius: 12px; margin: 0 auto 12px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
+.qr-grid { display: grid; grid-template-columns: repeat(10, 1fr); gap: 2px; padding: 14px; width: 100%; height: 100%; }
+.qr-code { font-family: monospace; font-size: 0.75rem; color: var(--muted); }
+.booking-details { background: var(--surface2); border-radius: var(--radius-sm); padding: 16px; text-align: left; margin-bottom: 20px; }
+.detail-row { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 0.88rem; }
+.detail-row:last-child { border-bottom: none; }
+.detail-lbl { color: var(--muted); }
+.detail-val { font-weight: 600; }
+.success-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
+
+@media (max-width: 900px) { .checkout-grid { grid-template-columns: 1fr; } .order-summary { position: static; } }
