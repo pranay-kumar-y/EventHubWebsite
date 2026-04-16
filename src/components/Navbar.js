@@ -78,3 +78,4 @@ export default function Navbar({ openAuth }) {
     </nav>
   );
 }
+// Navbar component
