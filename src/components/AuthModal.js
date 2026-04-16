@@ -203,3 +203,4 @@ export default function AuthModal({ initialMode, onClose, notify }) {
     </div>
   );
 }
+// Auth module
